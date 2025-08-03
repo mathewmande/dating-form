@@ -1,0 +1,120 @@
+/* Reset some default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page background with image */
+body {
+  background-image: url("images/background/img\ love.jpeg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Form container */
+form {
+  /* background-color: rgba(255, 255, 255, 0.95); */
+  background-color: pink;
+  padding: 20px 25px;
+  border-radius: 15px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Form title */
+form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #d63384;
+}
+
+/* Each field layout */
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+label {
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #11122b;
+}
+
+/* Input, select, textarea */
+input,
+select,
+textarea {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #d63384;
+}
+
+/* Textarea resizable and clean */
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Submit button styling */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #d63384;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #bd1e6f;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  form {
+    padding: 20px 15px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+
+h1 {
+    color: #11122b;
+}
+
+h2 {
+    color: #11122b;
+}
+
+p {
+    columns: #11122b;
+    
+
+}
